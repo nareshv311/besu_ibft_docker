@@ -1,0 +1,22 @@
+data-path="/usr/app/data"
+
+rpc-http-enabled=true
+rpc-http-api=["ETH", "NET", "IBFT"]
+
+rpc-http-port=8546
+
+p2p-port=30304
+
+miner-enabled=true
+
+miner-coinbase="fe3b557e8fb62b89f4916b721be55ceb828dbd73" 
+
+
+
+host-allowlist=["*"]
+
+rpc-http-cors-origins=["all"]
+
+genesis-file="/usr/app/data/privateNetworkGenesis.json"
+
+min-gas-price=0

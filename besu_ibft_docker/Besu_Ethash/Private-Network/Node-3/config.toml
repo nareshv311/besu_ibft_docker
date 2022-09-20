@@ -1,0 +1,20 @@
+data-path="/usr/app/data"
+
+bootnodes=["enode://4374709b524a5c9f49c7dc1c510508dc41644858f427414469fc776e7b4792ef1e3379e719d2db67bd01a790cc377e94c821fc9745320f9f5ec713a2848d6a11@127.0.0.1:30304"]
+
+
+rpc-http-enabled=true
+rpc-http-api=["ETH", "NET", "IBFT"]
+
+
+rpc-http-port=8548
+
+p2p-port=30306
+
+host-allowlist=["*"]
+
+rpc-http-cors-origins=["all"]
+
+genesis-file="/usr/app/data/privateNetworkGenesis.json"
+
+min-gas-price=0

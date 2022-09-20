@@ -1,0 +1,19 @@
+data-path="/usr/app/data"
+
+rpc-http-enabled=true
+rpc-http-api=["ETH", "NET", "IBFT"]
+rpc-http-port=8546
+
+p2p-port=30304
+
+permissions-nodes-config-file-enabled=true
+
+permissions-accounts-config-file-enabled=true
+
+host-allowlist=["*"]
+
+rpc-http-cors-origins=["all"]
+
+genesis-file="/usr/app/genesis.json"
+
+min-gas-price=0
